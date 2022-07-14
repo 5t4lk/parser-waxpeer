@@ -15,9 +15,9 @@ func main() {
 	}
 
 	var final itemsList
-	errUnmarshal := json.Unmarshal(rByte, &final)
-	if errUnmarshal != nil {
-		log.Fatal(errUnmarshal)
+	err = json.Unmarshal(rByte, &final)
+	if err != nil {
+		log.Fatal(err)
 	}
 
 	if !final.Success {
