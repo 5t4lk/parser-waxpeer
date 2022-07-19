@@ -1,5 +1,5 @@
 # Installation
-> go get github.com/5t4lk/parser-waxpeer
+> git clone github.com/5t4lk/parser-waxpeer
 # How to use?
 > Go to [API Waxpeer](https://api.waxpeer.com/docs/#/), swipe to the topic "Steam", generate your request URL, come back to the program and put it in the first line of function main.
 
